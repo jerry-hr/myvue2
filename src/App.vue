@@ -1,17 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+     <CodeMirrorEdit />
+    <Test1Data />
+    <TeswData />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CodeMirrorEdit from "./views/codeMirror/codeMirorEdit.vue";
+import Test1Data from "./views/data/test1/test1Data.vue";
+import TeswData from "./views/data/test1/teswData.vue";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CodeMirrorEdit,
+    Test1Data,
+    TeswData
   }
 }
 </script>
