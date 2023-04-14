@@ -1,5 +1,10 @@
 <template>
   <div>
+    <Row>
+      <Col span="2">
+        <p style="margin-left: 0px">组件名：test1Data</p>
+      </Col>
+    </Row>
     <ROW>
       <Col span="8">
         <div class="box1"><Button type="primary">Primary</Button></div>

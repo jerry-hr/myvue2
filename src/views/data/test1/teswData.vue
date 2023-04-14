@@ -1,7 +1,12 @@
 <template>
   <div>
     <Row>
-      <Col :span="10">
+      <Col span="2">
+        <p style="margin-left: 0px">组件名：teswData</p>
+      </Col>
+    </Row>
+    <Row>
+      <Col :span="8">
         <Card>
           <!-- 新增数据项--->
           <div style="height: 300px; width: 100%">
@@ -11,7 +16,7 @@
                   <!-- 全选 -->
                   <div
                     v-if="haveData"
-                    style="margin-left: -278px; margin-bottom: 20px"
+                    style="margin-left: 0px; margin-bottom: 20px"
                   >
                     <Checkbox
                       :indeterminate="indeterminate"
@@ -24,7 +29,7 @@
                     </span>
                   </div>
                   <!-- Checkbox -->
-                  <div style="width: 834px; height: 430px; overflow-y: auto">
+                  <div style="width:300px height: 430px; overflow-y: auto">
                     <Form :label-width="20">
                       <FormItem>
                         <CheckboxGroup
@@ -85,8 +90,8 @@
           </div>
         </Card>
       </Col>
-      <Col :span="7"></Col>
-      <Col :span="7"></Col>
+      <Col :span="8"> </Col>
+      <Col :span="8"> </Col>
     </Row>
   </div>
 </template>

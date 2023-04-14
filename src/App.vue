@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-     <CodeMirrorEdit />
-    <Test1Data />
-    <TeswData />
+    <Row>
+      <Col span="24"><CodeMirrorEdit /></Col>
+      <Col span="24"> <Test1Data /></Col>
+      <Col span="24"><TeswData /></Col>
+    </Row>
   </div>
 </template>
 
@@ -12,13 +14,13 @@ import Test1Data from "./views/data/test1/test1Data.vue";
 import TeswData from "./views/data/test1/teswData.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     CodeMirrorEdit,
     Test1Data,
-    TeswData
-  }
-}
+    TeswData,
+  },
+};
 </script>
 
 <style>
